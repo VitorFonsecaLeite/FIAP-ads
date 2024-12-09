@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+header {
+    margin: 0px -5px;
+    border: 3px solid blue;
+    min-width: 90vh;
+    min-height: 20vh;
+    font-size: 250%;
+    text-align: center;
+}
+
+div.principal {
+    min-height: 90vh;
+    min-width: 90vh;
+    margin: auto;
+    border: 3px dotted green;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+img#foto_perfil{
+    border: 3px orange solid;
+    min-height: 30vh;
+    min-width: 30vh;
+    margin-top: 2%;
+    margin-left:30% ;
+    margin-right: 30%;
+    border-radius: 100%;
+    text-align: center;
+}
+
+div#para_esquerda {
+    border: 3px dotted yellow;
+    justify-content: left;
+    min-width: 50%;
+}
+
+section.informações {
+    margin: 7% 2%;
+    border: 2px dashed black;
+    padding: 15px;
+}
+
+div#para_direita {
+    border: 3px dotted blueviolet;
+    margin:5% 2%;
+    min-width: 40%;
+}
+
+section.dados {
+    margin: 10% 2%;
+    border: 5px dotted red;
+    padding: 0%;
+    min-width: 30vh;
+}
+section.dados h1{
+    text-align: center;
+    padding-top: -10px;
+}
+section.dados li{
+    font-size: 130%;
+    list-style: none;
+}
