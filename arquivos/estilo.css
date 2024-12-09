@@ -1,19 +1,23 @@
 @charset "utf-8";
 
+body{
+    background-color: aqua;
+}
 header {
     margin: 0px -5px;
-    border: 3px solid blue;
+    border: 3px solid rgba(0, 0, 255, 0.616);
     min-width: 90vh;
     min-height: 20vh;
     font-size: 250%;
     text-align: center;
+    background-color: rgba(0, 0, 255, 0.616);
 }
 
 div.principal {
     min-height: 90vh;
     min-width: 90vh;
     margin: auto;
-    border: 3px dotted green;
+    border: 3px ;
     padding: 5px;
     display: flex;
     justify-content: center;
@@ -21,39 +25,39 @@ div.principal {
 }
 
 img#foto_perfil{
-    border: 3px orange solid;
-    min-height: 30vh;
-    min-width: 30vh;
+    border: 3px;
+    max-height: 35vh;
+    max-width: 35vh;
     margin-top: 2%;
     margin-left:30% ;
-    margin-right: 30%;
-    border-radius: 100%;
-    text-align: center;
 }
 
 div#para_esquerda {
-    border: 3px dotted yellow;
+    border: 3px ;
     justify-content: left;
     min-width: 50%;
 }
 
 section.informações {
     margin: 7% 2%;
-    border: 2px dashed black;
+    border: 2px  ;
     padding: 15px;
+    background-color: aquamarine;
 }
 
 div#para_direita {
-    border: 3px dotted blueviolet;
+    border: 3px ;
     margin:5% 2%;
     min-width: 40%;
+    background-color: aquamarine;
 }
 
 section.dados {
     margin: 10% 2%;
-    border: 5px dotted red;
+    border: 5px ;
     padding: 0%;
     min-width: 30vh;
+    background-color: azure;
 }
 section.dados h1{
     text-align: center;
